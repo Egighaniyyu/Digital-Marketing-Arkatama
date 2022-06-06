@@ -81,6 +81,7 @@
       rgba(15, 52, 94, 0) 105.34%
     ),
     url(../img/images/unsplash_1-aA2Fadydc.png), #ffffff;
+  background-size: cover;
   /* background-image: url("../img/images/unsplash_1-aA2Fadydc.png"); */
 }
 
@@ -112,4 +113,126 @@
   font-size: 24px;
   line-height: 150%;
   padding: 15px 25px;
+}
+
+/* Digital Marketing */
+.digital-marketing {
+  background-color: #0f345e;
+  padding: 74px 0;
+}
+
+.title-section {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 120%;
+  /* or 50px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.text-digital-marketing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+  margin-top: 44px;
+}
+
+/* benefit */
+.benefit {
+  margin-top: 155px;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  text-align: center;
+
+  color: #434343;
+
+  opacity: 0.8;
+}
+
+/* pelajaran */
+.text-pelajaran {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  color: #434343;
+
+  opacity: 0.6;
+}
+
+.text-nmr-pelajaran {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  color: #000000;
+
+  opacity: 0.3;
+}
+
+.text-title-pelajaran {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #0f345e;
+}
+
+.btn-collapse {
+  color: #000000;
+}
+
+.text-card-collapse {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+
+  color: #434343;
+
+  opacity: 0.6;
+}
+
+.card-collapse {
+  border-bottom: 1px solid #434343;
+  margin-bottom: 32px;
 }
