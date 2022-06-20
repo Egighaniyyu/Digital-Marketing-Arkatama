@@ -295,3 +295,207 @@
   border: 4px solid #ffa110;
   width: 70px;
 }
+
+/* testimonial */
+.card-testimonial {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 28px 36px 30px 30px;
+  margin-bottom: 24px;
+}
+
+.desc-testimonial {
+  margin-top: 28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #434343;
+
+  opacity: 0.7;
+}
+
+.user-testimonial {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #434343;
+  margin: 0;
+}
+
+.jobuser-testimonial {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  color: #434343;
+}
+
+.img-testimonial {
+  width: 114px;
+  height: 114px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.box-testimonial {
+  height: 896px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.box-testimonial::-webkit-scrollbar {
+  width: 7px;
+}
+
+.box-testimonial::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+
+.box-testimonial::-webkit-scrollbar-thumb {
+  background-color: #434343;
+  border-radius: 100px;
+}
+
+.bottom-testimonial {
+  background-image: url("/assets/img/images/btm-testimonial.png");
+  height: 351px;
+  object-fit: cover;
+  margin-top: -80px;
+}
+
+.img-btm-testimonial {
+  width: 827px;
+  height: auto;
+  margin-top: -361px;
+}
+
+/* pricing */
+.sec-reg {
+  background-color: #0f345e;
+  padding-top: 76px;
+  padding-bottom: 236px;
+}
+
+.title-reg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  text-align: center;
+
+  color: #db9931;
+
+  margin-bottom: 20px;
+}
+
+.detail-reg {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  /* identical to box height, or 48px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sec-detail-reg {
+  margin-top: 100px;
+}
+
+.card-pricing {
+  padding: 55px 70px 87px 70px;
+  background: #ffffff;
+  /* Card2 */
+
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.type-pricing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+
+  color: #0f345e;
+}
+
+.price-pricing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  /* identical to box height, or 58px */
+
+  text-align: center;
+
+  color: #434343;
+  margin-top: 32px;
+}
+
+.border-price {
+  border: 3px solid rgba(0, 0, 0, 0.15);
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.benefit-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+
+.detail-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  color: #000000;
+}
+
+.sec-card-pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 100px;
+  margin-top: -120px;
+}
+
+.text-user-pricing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  /* identical to box height, or 29px */
+
+  color: rgba(67, 67, 67, 0.6);
+}
