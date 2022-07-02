@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
 .title {
   font-family: "Poppins";
   font-style: normal;
@@ -453,8 +459,8 @@
   margin-top: 100px;
 }
 
-.card-pricing {
-  padding: 55px 70px 87px 70px;
+.card-price {
+  padding: 55px 70px 87px 70px !important;
   background: #ffffff;
   /* Card2 */
 
@@ -581,6 +587,13 @@
   margin-top: 100px;
 }
 
+.content-konsultasi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .desc-konsultasi {
   font-family: "Poppins";
   font-style: normal;
@@ -681,6 +694,43 @@
   margin-top: 80px;
 }
 
+/* galeri */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 518px !important;
+  height: auto !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.btn-next::before {
+  content: "\f138";
+  font-family: FontAwesome;
+  font-size: 36px;
+  color: #0f345e;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.btn-prev::before {
+  content: "\f137";
+  font-family: FontAwesome;
+  font-size: 36px;
+  color: #0f345e;
+  margin-left: auto;
+  margin-right: 0;
+}
+
 /* reponsive */
 @media (max-width: 992px) {
   .text-lg-jumbo {
@@ -712,14 +762,27 @@
   }
 
   .img-btm-testimonial {
-    width: 60%;
+    /* width: 60%;
     height: auto;
-    position: absolute;
     -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    transform: scaleX(-1); */
+    display: none;
   }
 
   .sec-img-testi {
     text-align: right !important;
+  }
+
+  .content-konsultasi {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+  }
+
+  .img-konsul {
+    width: 100%;
+    height: auto;
   }
 }
