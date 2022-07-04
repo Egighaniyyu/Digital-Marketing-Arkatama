@@ -36,12 +36,16 @@ body {
 }
 
 .menu-header p {
-  margin-right: 32px;
+  /* margin-right: 32px; */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
+}
+
+.menu-header p:nth-child(1) {
+  margin-right: 32px;
 }
 
 .m-header {
@@ -274,7 +278,7 @@ body {
 }
 
 .content-profesi {
-  width: 50%;
+  width: 100%;
   padding: 0px;
 }
 
@@ -784,5 +788,43 @@ body {
   .img-konsul {
     width: 100%;
     height: auto;
+  }
+
+  .navbar-nav .btn-outline-light {
+    margin: 20px 0;
+  }
+
+  .menu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-digital-marketing {
+    font-size: 18px;
+  }
+
+  .text-nmr-pelajaran {
+    font-size: 18px;
+  }
+
+  .text-title-pelajaran {
+    font-size: 18px;
+  }
+
+  .text-card-collapse {
+    font-size: 18px;
+  }
+
+  .border-orange {
+    margin-bottom: 64px;
+  }
+
+  .detail-reg {
+    margin-bottom: 64px;
+  }
+
+  .btn-first {
+    margin-bottom: 64px;
   }
 }
