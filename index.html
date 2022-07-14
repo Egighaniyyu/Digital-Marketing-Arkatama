@@ -84,7 +84,11 @@
     <!-- Digital Marketing -->
     <section id="digital-marketing">
         <div class="digital-marketing">
-            <div class="container">
+            <div class="container text-center">
+                <div class="box-title text-center">
+                    <h3 class="title-section-back">Apa itu Digital Marketing?</h3>
+                    <div class="ellipse"></div>
+                </div>
                 <h3 class="title-section">Apa itu Digital Marketing?</h3>
                 <p class="text-digital-marketing">Suatu kegiatan pemasaran atau promosi sebuah brand atau produk
                     menggunakan media digital atau internet. Tujuan digital marketing adalah untuk menarik konsumen dan
@@ -524,33 +528,14 @@
     <section id="galeri" style="margin-top: 128px;">
         <div class="container">
             <p class="title text-center" style="margin-bottom: 88px;">Galeri</p>
-            <div class="row">
-                <div class="col-md-1 m-auto">
-                    <div class="btn-prev"></div>
-                </div>
-                <div class="col-md-10">
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="assets/img/images/1.png" alt="image1" class="img-galeri" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/img/images/2.png" alt="image2" class="img-galeri" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/img/images/3.png" alt="image3" class="img-galeri" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/img/images/4.png" alt="image4" class="img-galeri" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="assets/img/images/5.png" alt="image5" class="img-galeri" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-1 m-auto">
-                    <div class="btn-next"></div>
+            <div class="gallery">
+                <div class="gallery-controls"></div>
+                <div class="gallery-container">
+                    <img class="gallery-item gallery-item-1" src="assets/img/images/1.png" data-index="1">
+                    <img class="gallery-item gallery-item-2" src="assets/img/images/2.png" data-index="2">
+                    <img class="gallery-item gallery-item-3" src="assets/img/images/3.png" data-index="3">
+                    <img class="gallery-item gallery-item-4" src="assets/img/images/4.png" data-index="4">
+                    <img class="gallery-item gallery-item-5" src="assets/img/images/5.png" data-index="5">
                 </div>
             </div>
         </div>
@@ -782,7 +767,8 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             effect: "coverflow",
@@ -801,7 +787,7 @@
                 prevEl: '.btn-prev',
             },
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
