@@ -12,9 +12,11 @@ body {
 }
 
 .box-title {
-  position: relative;
-  display: inline-block;
-  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: center;
 }
 
 .title {
@@ -41,21 +43,9 @@ body {
   text-align: center;
 
   color: #ffffff;
-  margin-top: -50px;
-}
-
-.title-section-back {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 120%;
-  /* or 50px */
-
-  text-align: center;
-
-  color: #ffffff;
-  visibility: hidden;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .ellipse {
@@ -68,11 +58,11 @@ body {
     rgba(255, 162, 18, 0.89) 112.43%,
     #b16c00 185.55%
   );
-  z-index: 0;
-  position: absolute;
   border-radius: 50%;
-  top: 0;
-  left: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px -20px;
 }
 
 /* Header */
